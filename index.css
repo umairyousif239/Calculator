@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'lovemedium';
+    src: url('love-webfont.woff2') format('woff2'),
+         url('love-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    border-radius: 7px;
+    padding: 50px;
+}
+
+#resultbar{
+    border: 4px solid #543f37;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#result{
+    width: 375px;
+    color: #543f37;
+    font-family:'lovemedium';
+    font-size: 20px;
+    padding-left: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #543f37;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#rowc{
+    border: 2px solid #543f37;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px;
+}
+
+#input{
+    margin-top: -4px;
+    border: 4px solid #543f37;
+    border-radius: 8px;
+}
+
+#row1, #row2, #row3{
+    margin-bottom: 10px;
+}
+
+#row1, #row2, #row3, #row4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    color: #543f37;
+    font-family:'lovemedium';
+    font-size: 20px;
+    border: 2px solid #543f37;
+    border-radius: 8px;
+}
+
+#bn1,#bn2,#bn3,#bn4,#bn6,#bn7,#bn8,#bn9,#bn11, #bn12,#bn13,#bn14,#bn16,#bn17,#bn18,#bn19{
+    margin-right: 40px;
+}
+
+#bn1,#bn2,#bn3,#bn4,#bn5,#bn6,#bn7,#bn8,#bn12,#bn19, #bn20{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bn9{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#bn10{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+#bn11{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+#bn13{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#bn14{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#bn15{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+#bn16{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+#bn17{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#bn18{
+    padding-left: 18px;
+    padding-right: 18px;
+}
